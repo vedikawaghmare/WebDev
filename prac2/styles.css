@@ -1,0 +1,74 @@
+body {
+  background: #ab5b5b;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/*  */
+header {
+  background: black;
+  background-image: url("images/Premium\ Photo\ _\ Top\ view\ chocolate\ cake.jpeg");
+  background-size: 100%;
+  background-position: center;
+  height: 600px;
+  padding: 20px;
+  text-align: center;
+}
+
+header a {
+  color: azure;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 40px;
+  left: 40px;
+}
+
+header .logo a {
+  background-image: url("images/logo.jpeg");
+  background-size: 250px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  top: -20px;
+  text-indent: -99999px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+nav li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.features {
+  background: rgb(41, 92, 41);
+  padding: 20px;
+  color: rgb(247, 247, 247);
+  display: flex;
+  flex-direction: row;
+}
+footer {
+  background: black;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.features figure {  
+  margin: auto;
+  width: 100px;
+  text-align: center;
+  text-transform: uppercase
+}
+
+.features figure img {
+ border-radius: 50%;
+ box-shadow: black 10px 10px 10px;
+ width: 200px;
+ height: 200px;
+}
